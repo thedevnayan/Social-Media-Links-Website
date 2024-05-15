@@ -80,7 +80,7 @@ a {
     text-align: center;
     padding: 1%;
     color: var(--white);
-    background-color: black;
+    background-color: var(--off-black);
 }
 
 .attribution a {
