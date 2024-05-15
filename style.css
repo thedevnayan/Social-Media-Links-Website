@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
-
-
-
 :root {
     --green: hsl(75, 94%, 57%);
     --white: hsl(0, 0%, 100%);
@@ -16,15 +13,15 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: var(--off-black);
 }
 
 .main {
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     font-family: "Inter", sans-serif;
     color: var(--white);
 }
@@ -82,6 +79,8 @@ a {
     font-size: 12px;
     text-align: center;
     padding: 1%;
+    color: var(--white);
+    background-color: black;
 }
 
 .attribution a {
